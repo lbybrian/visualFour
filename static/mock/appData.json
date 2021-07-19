@@ -1,0 +1,4758 @@
+{
+    "path": "",
+    "title": "图表概览",
+    "list": [{
+            "ref": "item1",
+            "comName": "dataTable",
+            "title": "数据表格dataTable",
+            "dataObj": {
+                "withSelection": true,
+                "header": [{
+                        "prop": "date",
+                        "sortable": true,
+                        "label": "日期",
+                        "width": "120"
+                    },
+                    {
+                        "prop": "valueA",
+                        "label": "列名A",
+                        "align": "center"
+                    },
+                    {
+                        "prop": "valueB",
+                        "label": "列名B",
+                        "align": "center"
+                    }
+                ],
+                "data": [{
+                        "date": "2020-02-21",
+                        "valueA": "值A001",
+                        "valueB": "值B001"
+                    },
+                    {
+                        "date": "2020-02-22",
+                        "valueA": "值A002",
+                        "valueB": "值B002"
+                    }
+                ],
+                "page": {
+                    "size": 20,
+                    "count": 3,
+                    "layout": "prev, pager, next, sizes",
+                    "total": 200
+                }
+            }
+        }, {
+            "ref": "item2",
+            "comName": "timeLine",
+            "title": "时间线timeLine",
+            "dataObj": {
+                "showSign": false,
+                "leftButton": false,
+                "rightButton": false,
+                "width": 0,
+                "middleWidth": 360,
+                "boxWidth": 490,
+                "N": 3,
+                "divUlWidth": "0px",
+                "divUlMarginLeft": "0px",
+                "detailList": [],
+                "list": [{
+                        "time": "2012/12/12",
+                        "source": "环球网",
+                        "title": "《Palantir技术探秘》《Palantir技术探秘》《Palantir技术探秘》",
+                        "percent": "95%",
+                        "others": ["测试数据11",
+                            {
+                                "ces": "测试数据22"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "2013/12/12",
+                        "source": "222222环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "21%",
+                        "others": ["测试数据11",
+                            {
+                                "ces": "测试数据22"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "2014/12/12",
+                        "source": "333333333环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "43%",
+                        "others": ["测试数据11",
+                            {
+                                "ces": "测试数据22"
+                            }
+                        ]
+                    },
+                    {
+                        "time": "2015/12/12",
+                        "source": "44444444444环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "54%",
+                        "others": ["测试数据11"]
+                    },
+                    {
+                        "time": "2016/12/12",
+                        "source": "5555555555环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "24%",
+                        "others": ["测试数据22"]
+                    },
+                    {
+                        "time": "2017/12/12",
+                        "source": "666666666666环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "67%",
+                        "others": []
+                    },
+                    {
+                        "time": "2018/12/12",
+                        "source": "7777777777777环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "65%",
+                        "others": []
+                    },
+                    {
+                        "time": "2019/12/12",
+                        "source": "环球网",
+                        "title": "《Palantir技术探秘》《Palantir技术探秘》《Palantir技术探秘》",
+                        "percent": "36%",
+                        "others": []
+                    },
+                    {
+                        "time": "2020/12/12",
+                        "source": "222222环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "81%",
+                        "others": []
+                    },
+                    {
+                        "time": "2021/12/12",
+                        "source": "333333333环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "32",
+                        "others": []
+                    },
+                    {
+                        "time": "2022/12/12",
+                        "source": "44444444444环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "57%",
+                        "others": []
+                    },
+                    {
+                        "time": "2023/12/12",
+                        "source": "5555555555环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "98%",
+                        "others": []
+                    },
+                    {
+                        "time": "2024/12/12",
+                        "source": "666666666666环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "43%",
+                        "others": []
+                    },
+                    {
+                        "time": "2025/12/12",
+                        "source": "7777777777777环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "75%",
+                        "others": []
+                    },
+                    {
+                        "time": "2026/12/12",
+                        "source": "环球网",
+                        "title": "《Palantir技术探秘》《Palantir技术探秘》《Palantir技术探秘》",
+                        "percent": "95%",
+                        "others": []
+                    },
+                    {
+                        "time": "2027/12/12",
+                        "source": "222222环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "34",
+                        "others": []
+                    },
+                    {
+                        "time": "2028/12/12",
+                        "source": "333333333环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "67%",
+                        "others": []
+                    },
+                    {
+                        "time": "2029/12/12",
+                        "source": "44444444444环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "91%",
+                        "others": []
+                    },
+                    {
+                        "time": "2030/12/12",
+                        "source": "5555555555环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "58%",
+                        "others": []
+                    },
+                    {
+                        "time": "2031/12/12",
+                        "source": "666666666666环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "99%",
+                        "others": []
+                    },
+                    {
+                        "time": "2032/12/12",
+                        "source": "7777777777777环球网2",
+                        "title": "《Palantir技术探秘2》《Palantir技术探秘2》《Palantir技术探秘2》",
+                        "percent": "78%",
+                        "others": []
+                    }
+                ]
+            }
+        }, {
+            "ref": "item3",
+            "comName": "relationship",
+            "title": "关系图谱relationship",
+            "dataObj": {
+                "current": [1, 2, 3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 18, 112, 113, 114, 115, 116, 117, 118, 102, 103, 104, 105, 106, 107, 108],
+                "nodes": [{
+                        "id": "1",
+                        "label": "N-1",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "2",
+                        "label": "N-2",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "3",
+                        "label": "N-3",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "4",
+                        "label": "N-4",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "5",
+                        "label": "N-5",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "6",
+                        "label": "N-6",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "7",
+                        "label": "N-7",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "8",
+                        "label": "N-8",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "12",
+                        "label": "N-12",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "13",
+                        "label": "N-13",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "14",
+                        "label": "N-14",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "15",
+                        "label": "N-15",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "16",
+                        "label": "N-16",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "17",
+                        "label": "N-17",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "18",
+                        "label": "N-18",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "102",
+                        "label": "N-102",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "103",
+                        "label": "N-103",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "104",
+                        "label": "N-104",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "105",
+                        "label": "N-105",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "106",
+                        "label": "N-106",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "107",
+                        "label": "N-107",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "108",
+                        "label": "N-108",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "112",
+                        "label": "N-112",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "113",
+                        "label": "N-113",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "114",
+                        "label": "N-114",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "115",
+                        "label": "N-115",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "116",
+                        "label": "N-116",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "117",
+                        "label": "N-117",
+                        "image": "/static/images/test.png"
+                    },
+                    {
+                        "id": "118",
+                        "label": "N-118",
+                        "image": "/static/images/test.png"
+                    }
+                ],
+                "edges": [{
+                        "id": "104-5",
+                        "target": "104",
+                        "source": "5",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "118-1",
+                        "target": "118",
+                        "source": "1",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "112-106",
+                        "target": "112",
+                        "source": "106",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "107-2",
+                        "target": "107",
+                        "source": "2",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "115-8",
+                        "target": "115",
+                        "source": "8",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "116-5",
+                        "target": "116",
+                        "source": "5",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "117-18",
+                        "target": "117",
+                        "source": "18",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "5-6",
+                        "target": "5",
+                        "source": "6",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "18-3",
+                        "target": "18",
+                        "source": "3",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "5-6",
+                        "target": "5",
+                        "source": "6",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "17-105",
+                        "target": "17",
+                        "source": "105",
+                        "label": "关注",
+                        "image": "image"
+                    },
+                    {
+                        "id": "1-104",
+                        "target": "1",
+                        "source": "104",
+                        "label": "关注",
+                        "image": "image"
+                    }
+                ],
+                "map": {
+                    "id": "id",
+                    "label": "label",
+                    "source": "source",
+                    "target": "target",
+                    "image": "image"
+                },
+                "layout": {
+                    "name": "fcose",
+                    "padding": 5,
+                    "nodeSeparation": 2,
+                    "idealEdgeLength": 2,
+                    "gravity": 2
+                },
+                "labelSelector": {
+                    "node": {
+                        "label": "data(label)",
+                        "height": 5,
+                        "width": 5,
+                        "padding": "5px",
+                        "border-width": 1,
+                        "background-color": "#fff",
+                        "border-color": "rgb(106, 176, 184)",
+                        "background-image": "data(image)",
+                        "background-fit": "contain",
+                        "color": "#999",
+                        "text-valign": "bottom",
+                        "z-index": 3,
+                        "font-size": 8,
+                        "text-margin-y": 1
+                    },
+                    "edge": {
+                        "curve-style": "bezier",
+                        "width": 0.2,
+                        "line-color": "#aaaaaa",
+                        "font-size": 6,
+                        "label": "data(label)",
+                        "color": "#666666",
+                        "text-max-width": 10,
+                        "text-wrap": "wrap",
+                        "arrow-scale": 0.2,
+                        "target-arrow-shape": "vee",
+                        "text-overflow-wrap": "whitespace",
+                        "edge-text-rotation": "autorotate"
+                    }
+                },
+                "idSelector": {
+                    "1": {
+                        "border-color": "red"
+                    }
+                },
+                "style": [],
+                "option": {
+                    "zoom": 1,
+                    "minZoom": 1,
+                    "maxZoom": 10
+                }
+            }
+        }, {
+            "ref": "item4",
+            "comName": "scatterChart",
+            "title": "地图散点图一scatterChart",
+            "dataObj": {
+                "title": "示例",
+                "titleStyle": {
+                    "color": "#666"
+                },
+                "data": [{
+                        "name": "1",
+                        "value": [143.28, 12.54, 12580],
+                        "time": "2020年10月21日 01:30",
+                        "itemStyle": {
+                            "color": "#1890ff"
+
+                        }
+                    },
+                    {
+                        "name": "2",
+                        "value": [140.88, 16.54, 12580],
+                        "time": "2020年10月21日 03:10",
+                        "itemStyle": {
+                            "color": "#2fc25b"
+                        }
+                    },
+                    {
+                        "name": "3",
+                        "value": [140.28, 20.54, 12580],
+                        "time": "2020年10月21日 03:33",
+                        "itemStyle": {
+                            "color": "#facc14"
+                        }
+                    }
+                ]
+            }
+        }, {
+            "ref": "item5",
+            "comName": "mapBox",
+            "title": "地图散点图二mapBox",
+            "dataObj": {
+                "geojson": [{
+                        "description": "航空母舰XX0001",
+                        "time": "2019-07-10  08:35:20",
+                        "coordinates": [130.28, 20.54]
+                    },
+                    {
+                        "description": "航空母舰XX0002",
+                        "time": "2019-07-10  08:30:20",
+                        "coordinates": [128.88, 25.54]
+                    },
+                    {
+                        "description": "航空母舰XX0003",
+                        "time": "2019-07-10  08:35:20",
+                        "coordinates": [125.28, 30.54]
+                    }
+                ],
+                "pointsVisibility": "visible",
+                "lineSvisibility": "visible",
+                "zoom": 4,
+                "center": [121.4333, 34.5]
+
+            }
+        }, {
+            "ref": "item6",
+            "comName": "formInfo",
+            "title": "表单信息formInfo",
+            "dataObj": {
+                "labelWidth": "120px",
+                "data": [{
+                        "name": "行动目标",
+                        "value": "",
+                        "type": "text",
+                        "items": [{
+                            "placeholder": "请输入行动目标"
+                        }]
+                    },
+                    {
+                        "name": "时间范围",
+                        "value": "",
+                        "type": "dateRange",
+                        "items": [""]
+                    },
+                    {
+                        "name": "协同间隔(小时)",
+                        "value": "",
+                        "type": "number",
+                        "items": [""]
+                    }
+                ]
+
+            }
+        },
+        {
+            "ref": "item7",
+            "comName": "barChart",
+            "title": "横向柱形图barChart",
+            "dataObj": {
+                "name": "杀伤力",
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "data": [{
+                        "name": "AK47",
+                        "value": 3000
+                    },
+                    {
+                        "name": "Mp5冲锋枪",
+                        "value": 2500
+                    },
+                    {
+                        "name": "榴弹",
+                        "value": 1000
+                    },
+                    {
+                        "name": "AWP狙击枪",
+                        "value": 8000
+                    },
+                    {
+                        "name": "加农炮",
+                        "value": 28000
+                    },
+                    {
+                        "name": "马克沁机枪",
+                        "value": 12000
+                    }
+                ],
+                "mode": "horizontal"
+
+            }
+        },
+        {
+            "ref": "item8",
+            "comName": "mixChart",
+            "title": "混合mixChart",
+            "dataObj": {
+                "title": "测试标题",
+                "typeMap": ["line", "bar"],
+                "styleMap": [{
+                    "color": "#1890ff"
+                }, {
+                    "color": "#2fc25b"
+                }],
+                "name": ["AAAAAA", "AAAAAA"],
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "data": [{
+                        "name": "周一",
+                        "value": [1300, 120]
+                    },
+                    {
+                        "name": "周二",
+                        "value": [6000, 4020]
+                    },
+                    {
+                        "name": "周三",
+                        "value": [3200, 1020]
+                    },
+                    {
+                        "name": "周四",
+                        "value": [3000, 2120]
+                    },
+                    {
+                        "name": "周五",
+                        "value": [5500, 5120]
+                    },
+                    {
+                        "name": "周六",
+                        "value": [1700, 1200]
+                    },
+                    {
+                        "name": "周日",
+                        "value": [1900, 1120]
+                    }
+                ],
+                "mode": "vertical"
+
+            }
+        },
+        {
+            "ref": "item9",
+            "comName": "pieChart",
+            "title": "扇形饼图pieChart",
+            "dataObj": {
+                "title": "某次军事演习",
+                "color": ["#1890ff", "#facc14", "#2fc25b", "#13c2c2", "#f04864", "#8543e0"],
+                "data": [{
+                    "name": "空军1",
+                    "value": 1000
+                }, {
+                    "name": "陆军",
+                    "value": 1050
+                }, {
+                    "name": "海军",
+                    "value": 2000
+                }]
+
+            }
+        },
+        {
+            "ref": "item10",
+            "comName": "treeChart",
+            "title": "横向树形图treeChart",
+            "dataObj": {
+                "title": "树形图",
+                "titleStyle": {
+                    "color": "#666"
+                },
+                "itemStyle": {
+                    "itemStyle": {
+                        "borderColor": "#cecece"
+                    }
+                },
+                "data": [{
+                    "name": "张三",
+                    "children": [{
+                            "name": "李四",
+                            "children": [{
+                                    "name": "converters",
+                                    "children": [{
+                                            "name": "Converters",
+                                            "value": 721
+                                        },
+                                        {
+                                            "name": "DelimitedTextConverter",
+                                            "value": 4294
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DataUtil",
+                                    "value": 3322
+                                }
+                            ]
+                        },
+                        {
+                            "name": "张三",
+                            "children": [{
+                                    "name": "DirtySprite",
+                                    "value": 8833
+                                },
+                                {
+                                    "name": "LineSprite",
+                                    "value": 1732
+                                },
+                                {
+                                    "name": "RectSprite",
+                                    "value": 3623
+                                }
+                            ]
+                        },
+                        {
+                            "name": "{{受众}}",
+                            "children": [{
+                                "name": "FlareVis",
+                                "value": 4116
+                            }]
+                        },
+                        {
+                            "name": "query",
+                            "children": [{
+                                    "name": "AggregateExpression",
+                                    "value": 1616
+                                },
+                                {
+                                    "name": "And",
+                                    "value": 1027
+                                },
+                                {
+                                    "name": "Xor",
+                                    "value": 1101
+                                }
+                            ]
+                        },
+                        {
+                            "name": "scale",
+                            "children": [{
+                                    "name": "IScaleMap",
+                                    "value": 2105
+                                },
+                                {
+                                    "name": "LinearScale",
+                                    "value": 1316
+                                },
+                                {
+                                    "name": "TimeScale",
+                                    "value": 5833
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "ref": "item11",
+            "comName": "radarChart",
+            "title": "多边形雷达图radarChart",
+            "dataObj": {
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "title": "武器装备性能对比",
+                "legendStyle": {
+                    "left": 10,
+                    "top": "middle",
+                    "orient": "vertical",
+                    "icon": "diamond"
+                },
+                "radarStyle": {
+                    "indicator": [
+                        { "name": "装甲厚度", "max": 100 },
+                        { "name": "舰载机携带数", "max": 100 },
+                        { "name": "续航", "max": 100 },
+                        { "name": "吨位", "max": 100 },
+                        { "name": "航速", "max": 100 }
+                    ]
+                },
+                "data": [{
+                        "name": "米尼兹级",
+                        "style": {
+                            "areaStyle": {
+                                "color": "#1890ff",
+                                "opacity": 0.5
+                            },
+                            "lineStyle": {
+                                "color": "#1890ff"
+                            }
+                        },
+                        "value": [55, 80, 68, 87, 90]
+                    },
+                    {
+                        "name": "001型",
+                        "style": {
+                            "areaStyle": {
+                                "color": "#2fc25b",
+                                "opacity": 0.5
+                            },
+                            "lineStyle": {
+                                "color": "#2fc25b"
+                            }
+                        },
+                        "value": [25, 84, 96, 80, 70]
+                    },
+                    {
+                        "name": "库兹列左夫",
+                        "value": [75, 34, 46, 90, 80],
+                        "style": {
+                            "areaStyle": {
+                                "color": "#facc14",
+                                "opacity": 0.5
+                            },
+                            "lineStyle": {
+                                "color": "#facc14"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item12",
+            "comName": "gaugeChart",
+            "title": "仪表图gaugeChart",
+            "dataObj": {
+                "title": "业务指标",
+                "data": [
+                    { "value": 50, "name": "完成率" }
+                ],
+                "itemStyle": {
+                    "axisLine": {
+                        "lineStyle": {
+                            "color": [
+                                [0.2, "#1890ff"],
+                                [0.8, "#2fc25b"],
+                                [1, "#facc14"]
+                            ]
+                        }
+                    },
+                    "itemStyle": {
+                        "color": "#13c2c2"
+                    }
+                }
+            }
+        },
+        {
+            "ref": "item13",
+            "comName": "menuItem",
+            "title": "菜单项menuItem",
+            "dataObj": {
+                "data": [{
+                        "icon": "",
+                        "label": "#菜单项1",
+                        "children": [{
+                                "icon": "",
+                                "label": "菜单项1-1"
+                            },
+                            {
+                                "icon": "",
+                                "label": "菜单项1-2"
+                            }
+                        ]
+                    },
+                    {
+                        "icon": "",
+                        "label": "菜单项2",
+                        "children": [{
+                                "icon": "",
+                                "label": "菜单项2-1"
+                            },
+                            {
+                                "icon": "",
+                                "label": "菜单项2-2"
+                            }
+                        ]
+                    },
+                    {
+                        "icon": "",
+                        "label": "菜单项3"
+                    },
+                    {
+                        "icon": "",
+                        "label": "菜单项4",
+                        "children": [{
+                                "icon": "",
+                                "label": "菜单项4-1"
+                            },
+                            {
+                                "icon": "",
+                                "label": "菜单项4-2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item14",
+            "comName": "funnelChart",
+            "title": "倒三角漏斗图funnelChart",
+            "dataObj": {
+                "name": "漏斗图",
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "data": [{
+                        "value": 60,
+                        "name": "访问"
+                    },
+                    {
+                        "value": 40,
+                        "name": "咨询"
+                    },
+                    {
+                        "value": 20,
+                        "name": "订单"
+                    },
+                    {
+                        "value": 80,
+                        "name": "点击"
+                    },
+                    {
+                        "value": 100,
+                        "name": "展现"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item15",
+            "comName": "flowChart",
+            "title": "横向流程图flowChart",
+            "dataObj": {
+                "name": "流程图",
+                "nodes": [{
+                        "id": "1",
+                        "dataType": "alps",
+                        "name": "alps_file1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "dataType": "alps",
+                        "name": "alps_file2",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "dataType": "alps",
+                        "name": "alps_file3",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "dataType": "sql",
+                        "name": "sql_file1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "dataType": "sql",
+                        "name": "sql_file2",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "dataType": "feature_etl",
+                        "name": "feature_etl_1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "dataType": "feature_etl",
+                        "name": "feature_etl_1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "dataType": "feature_extractor",
+                        "name": "feature_extractor",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    }
+                ],
+                "edges": [{
+                        "source": "1",
+                        "target": "2"
+                    },
+                    {
+                        "source": "1",
+                        "target": "3"
+                    },
+                    {
+                        "source": "2",
+                        "target": "4"
+                    },
+                    {
+                        "source": "3",
+                        "target": "4"
+                    },
+                    {
+                        "source": "4",
+                        "target": "5"
+                    },
+                    {
+                        "source": "5",
+                        "target": "6"
+                    },
+                    {
+                        "source": "6",
+                        "target": "7"
+                    },
+                    {
+                        "source": "6",
+                        "target": "8"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item16",
+            "comName": "arcChart",
+            "title": "环形弧形图arcChart",
+            "dataObj": {
+                "name": "弧形图",
+                "nodes": [{
+                        "id": "0",
+                        "name": "analytics.cluster",
+                        "cluster": "analytics",
+                        "value": 21
+                    },
+                    {
+                        "id": "1",
+                        "name": "analytics.graph",
+                        "cluster": "analytics",
+                        "value": 34
+                    },
+                    {
+                        "id": "2",
+                        "name": "analytics.optimization",
+                        "cluster": "analytics",
+                        "value": 8
+                    },
+                    {
+                        "id": "3",
+                        "name": "animate",
+                        "cluster": "animate",
+                        "value": 40
+                    },
+                    {
+                        "id": "4",
+                        "name": "animate.interpolate",
+                        "cluster": "animate",
+                        "value": 18
+                    },
+                    {
+                        "id": "5",
+                        "name": "data.converters",
+                        "cluster": "data",
+                        "value": 25
+                    },
+                    {
+                        "id": "6",
+                        "name": "data",
+                        "cluster": "data",
+                        "value": 10
+                    },
+                    {
+                        "id": "7",
+                        "name": "display",
+                        "cluster": "display",
+                        "value": 4
+                    },
+                    {
+                        "id": "8",
+                        "name": "flex",
+                        "cluster": "flex",
+                        "value": 6
+                    },
+                    {
+                        "id": "9",
+                        "name": "physics",
+                        "cluster": "physics",
+                        "value": 22
+                    },
+                    {
+                        "id": "10",
+                        "name": "query",
+                        "cluster": "query",
+                        "value": 67
+                    },
+                    {
+                        "id": "11",
+                        "name": "query.methods",
+                        "cluster": "query",
+                        "value": 71
+                    },
+                    {
+                        "id": "12",
+                        "name": "scale",
+                        "cluster": "scale",
+                        "value": 33
+                    },
+                    {
+                        "id": "13",
+                        "name": "util",
+                        "cluster": "util",
+                        "value": 23
+                    },
+                    {
+                        "id": "14",
+                        "name": "util.heap",
+                        "cluster": "util",
+                        "value": 2
+                    },
+                    {
+                        "id": "15",
+                        "cluster": "util",
+                        "name": "util.math",
+                        "value": 2
+                    },
+                    {
+                        "id": "16",
+                        "name": "util.palette",
+                        "cluster": "util",
+                        "value": 5
+                    },
+                    {
+                        "id": "17",
+                        "name": "vis.axis",
+                        "cluster": "vis",
+                        "value": 24
+                    },
+                    {
+                        "id": "18",
+                        "name": "vis.controls",
+                        "cluster": "vis",
+                        "value": 28
+                    },
+                    {
+                        "id": "19",
+                        "name": "vis.data",
+                        "cluster": "vis",
+                        "value": 70
+                    },
+                    {
+                        "id": "20",
+                        "name": "vis.data.render",
+                        "cluster": "vis",
+                        "value": 11
+                    },
+                    {
+                        "id": "21",
+                        "name": "vis.events",
+                        "cluster": "vis",
+                        "value": 8
+                    },
+                    {
+                        "id": "22",
+                        "name": "vis.legend",
+                        "cluster": "vis",
+                        "value": 27
+                    },
+                    {
+                        "id": "23",
+                        "name": "vis.operator.distortion",
+                        "cluster": "vis",
+                        "value": 9
+                    },
+                    {
+                        "id": "24",
+                        "name": "vis.operator.encoder",
+                        "cluster": "vis",
+                        "value": 30
+                    },
+                    {
+                        "id": "25",
+                        "name": "vis.operator.filter",
+                        "cluster": "vis",
+                        "value": 17
+                    },
+                    {
+                        "id": "26",
+                        "name": "vis.operator",
+                        "cluster": "vis",
+                        "value": 27
+                    },
+                    {
+                        "id": "27",
+                        "name": "vis.operator.label",
+                        "cluster": "vis",
+                        "value": 18
+                    },
+                    {
+                        "id": "28",
+                        "name": "vis.operator.layout",
+                        "cluster": "vis",
+                        "value": 91
+                    },
+                    {
+                        "id": "29",
+                        "name": "vis",
+                        "cluster": "vis",
+                        "value": 13
+                    }
+                ],
+                "edges": [{
+                        "source": "10",
+                        "target": "10",
+                        "sourceWeight": 61,
+                        "targetWeight": 61
+                    },
+                    {
+                        "source": "11",
+                        "target": "11",
+                        "sourceWeight": 39,
+                        "targetWeight": 39
+                    },
+                    {
+                        "source": "3",
+                        "target": "3",
+                        "sourceWeight": 30,
+                        "targetWeight": 30
+                    },
+                    {
+                        "source": "19",
+                        "target": "19",
+                        "sourceWeight": 26,
+                        "targetWeight": 26
+                    },
+                    {
+                        "source": "13",
+                        "target": "13",
+                        "sourceWeight": 23,
+                        "targetWeight": 23
+                    },
+                    {
+                        "source": "9",
+                        "target": "9",
+                        "sourceWeight": 22,
+                        "targetWeight": 22
+                    },
+                    {
+                        "source": "12",
+                        "target": "12",
+                        "sourceWeight": 19,
+                        "targetWeight": 19
+                    },
+                    {
+                        "source": "28",
+                        "target": "19",
+                        "sourceWeight": 34,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "4",
+                        "target": "4",
+                        "sourceWeight": 16,
+                        "targetWeight": 16
+                    },
+                    {
+                        "source": "11",
+                        "target": "10",
+                        "sourceWeight": 32,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "28",
+                        "sourceWeight": 14,
+                        "targetWeight": 14
+                    },
+                    {
+                        "source": "18",
+                        "target": "18",
+                        "sourceWeight": 12,
+                        "targetWeight": 12
+                    },
+                    {
+                        "source": "26",
+                        "target": "26",
+                        "sourceWeight": 11,
+                        "targetWeight": 11
+                    },
+                    {
+                        "source": "28",
+                        "target": "13",
+                        "sourceWeight": 20,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "5",
+                        "target": "6",
+                        "sourceWeight": 17,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "19",
+                        "target": "13",
+                        "sourceWeight": 17,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "17",
+                        "sourceWeight": 7,
+                        "targetWeight": 7
+                    },
+                    {
+                        "source": "6",
+                        "target": "6",
+                        "sourceWeight": 7,
+                        "targetWeight": 7
+                    },
+                    {
+                        "source": "12",
+                        "target": "13",
+                        "sourceWeight": 14,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "19",
+                        "sourceWeight": 14,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "5",
+                        "target": "5",
+                        "sourceWeight": 7,
+                        "targetWeight": 7
+                    },
+                    {
+                        "source": "21",
+                        "target": "19",
+                        "sourceWeight": 6,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "25",
+                        "target": "19",
+                        "sourceWeight": 10,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "0",
+                        "sourceWeight": 5,
+                        "targetWeight": 5
+                    },
+                    {
+                        "source": "3",
+                        "target": "13",
+                        "sourceWeight": 9,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "20",
+                        "target": "19",
+                        "sourceWeight": 5,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "19",
+                        "target": "12",
+                        "sourceWeight": 9,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "19",
+                        "sourceWeight": 8,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "19",
+                        "sourceWeight": 8,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "22",
+                        "target": "22",
+                        "sourceWeight": 4,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "24",
+                        "target": "24",
+                        "sourceWeight": 4,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "26",
+                        "target": "3",
+                        "sourceWeight": 7,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "16",
+                        "sourceWeight": 7,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "16",
+                        "target": "16",
+                        "sourceWeight": 3,
+                        "targetWeight": 3
+                    },
+                    {
+                        "source": "10",
+                        "target": "13",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "7",
+                        "target": "7",
+                        "sourceWeight": 3,
+                        "targetWeight": 3
+                    },
+                    {
+                        "source": "22",
+                        "target": "13",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "20",
+                        "target": "20",
+                        "sourceWeight": 3,
+                        "targetWeight": 3
+                    },
+                    {
+                        "source": "1",
+                        "target": "26",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "19",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "12",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "22",
+                        "target": "7",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "3",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "7",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "26",
+                        "target": "13",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "13",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "13",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "3",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "26",
+                        "target": "29",
+                        "sourceWeight": 3,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "22",
+                        "target": "16",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "18",
+                        "target": "21",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "22",
+                        "target": "12",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "23",
+                        "target": "23",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "17",
+                        "target": "29",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "28",
+                        "target": "17",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "15",
+                        "target": "15",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "17",
+                        "target": "12",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "27",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "14",
+                        "target": "14",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "18",
+                        "target": "29",
+                        "sourceWeight": 3,
+                        "targetWeight": 1
+                    },
+                    {
+                        "source": "25",
+                        "target": "26",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "9",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "7",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "12",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "18",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "20",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "19",
+                        "target": "6",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "29",
+                        "target": "3",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "25",
+                        "target": "3",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "3",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "3",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "15",
+                        "sourceWeight": 2,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "26",
+                        "sourceWeight": 2,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "26",
+                        "sourceWeight": 2,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "16",
+                        "target": "13",
+                        "sourceWeight": 2,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "14",
+                        "sourceWeight": 2,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "29",
+                        "target": "21",
+                        "sourceWeight": 2,
+                        "targetWeight": 0
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item17",
+            "comName": "wordCloud",
+            "title": "词云图wordCloud",
+            "dataObj": {
+                "changeSign": true,
+                "data": [{
+                        "value": 4,
+                        "name": "Arc Diagram"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Bar Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Canvas"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DAG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Facet"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Geo"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 4,
+                        "name": "MindMap"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pie"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pizza Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Punch Card"
+                    },
+                    {
+                        "value": 4,
+                        "name": "SVG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Sunburst"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Tree"
+                    },
+                    {
+                        "value": 4,
+                        "name": "UML"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 3,
+                        "name": "View"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Geom"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Shape"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Scale"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Animate"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Global"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Slider"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Connector"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Transform"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Util"
+                    },
+                    {
+                        "value": 3,
+                        "name": "DomUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "MatrixUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "PathUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "G"
+                    },
+                    {
+                        "value": 3,
+                        "name": "2D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "3D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Area"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Interval"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Schema"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Edge"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Polygon"
+                    }
+
+                ],
+                "imageMask": "",
+                "wordField": "name",
+                "weightField": "value",
+                "colorField": "name",
+                "interactions": [{
+                    "type": "element-active"
+                }],
+                "state": {
+                    "active": {
+                        "style": {
+                            "lineWidth": 3
+                        }
+                    }
+                },
+                "wordStyle": {
+                    "fontFamily": "Verdana",
+                    "fontSize": [
+                        18,
+                        32
+                    ]
+                }
+            }
+        },
+        {
+            "ref": "item18",
+            "comName": "sanKey",
+            "title": "桑基图sanKey",
+            "dataObj": {
+                "data": [{
+                        "source": "首次打开",
+                        "target": "首页 UV",
+                        "value": 160
+                    },
+                    {
+                        "source": "结果页",
+                        "target": "首页 UV",
+                        "value": 40
+                    },
+                    {
+                        "source": "验证页",
+                        "target": "首页 UV",
+                        "value": 10
+                    },
+                    {
+                        "source": "我的",
+                        "target": "首页 UV",
+                        "value": 10
+                    },
+                    {
+                        "source": "朋友",
+                        "target": "首页 UV",
+                        "value": 8
+                    },
+                    {
+                        "source": "其他来源",
+                        "target": "首页 UV",
+                        "value": 27
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "理财",
+                        "value": 30
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "扫一扫",
+                        "value": 40
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "服务",
+                        "value": 35
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "蚂蚁森林",
+                        "value": 25
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "跳失",
+                        "value": 10
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "借呗",
+                        "value": 30
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "花呗",
+                        "value": 40
+                    },
+                    {
+                        "source": "首页 UV",
+                        "target": "其他流向",
+                        "value": 45
+                    }
+                ],
+                "sourceField": "source",
+                "targetField": "target",
+                "weightField": "value",
+                "nodeWidthRatio": 0.008,
+                "nodePaddingRatio": 0.03
+            }
+        },
+        {
+            "ref": "item19",
+            "comName": "olGisMap",
+            "title": "Gis地图olGisMap",
+            "dataObj": {
+                "geojson": [{
+                    "type": "point",
+                    "features": [{
+                            "coordinates": [
+                                116.382422,
+                                39.898995
+                            ],
+                            "title": "首都北京",
+                            "description": "北京：中国的政治中心。",
+                            "color": "red"
+                        },
+                        {
+                            "coordinates": [
+                                121.496871,
+                                31.210857
+                            ],
+                            "title": "经济中心上海",
+                            "description": "上海：中国经济中心。",
+                            "color": "blue"
+                        },
+                        {
+                            "coordinates": [
+                                114.091959,
+                                22.643352
+                            ],
+                            "title": "经济特区深圳",
+                            "description": "深圳：中国经济特区。",
+                            "color": "orange"
+                        }
+                    ]
+                }],
+                "center": [
+                    103,
+                    36
+                ],
+                "zoom": 4,
+                "minZoom": 2,
+                "maxZoom": 19
+            }
+        },
+        {
+            "ref": "item20",
+            "comName": "tree",
+            "title": "树结构tree",
+            "dataObj": {
+                "nodeKey": "id",
+                "tree": [{
+                        "id": 1,
+                        "label": "一级 15555",
+                        "count": 10,
+                        "children": [{
+                            "id": 4,
+                            "label": "二级 1-1",
+                            "count": 10,
+                            "children": [{
+                                    "id": 9,
+                                    "label": "三级 1-1-1",
+                                    "count": 3
+                                },
+                                {
+                                    "id": 10,
+                                    "label": "三级 1-1-2",
+                                    "count": 7
+                                }
+                            ]
+                        }]
+                    },
+                    {
+                        "id": 2,
+                        "label": "一级 2",
+                        "count": 10,
+                        "children": [{
+                                "id": 5,
+                                "label": "二级 2-1",
+                                "count": 8
+                            },
+                            {
+                                "id": 6,
+                                "label": "二级 2-2",
+                                "count": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "label": "一级 3",
+                        "children": [{
+                            "id": 25,
+                            "label": "二级 32-1"
+                        }]
+                    }
+                ],
+                "expandClickNode": false,
+                "accordion": false,
+                "highlightCurrent": false,
+                "treeIndent": 16,
+                "treeShowCheckbox": false,
+                "treeCheckStrictly": false,
+                "editable": false,
+                "collect": false,
+                "hideParentCheckBox": true,
+                "dialogData": {
+                    "title": "",
+                    "visible": false
+                },
+                "form": {
+                    "label": ""
+                }
+            }
+        },
+        {
+            "ref": "item21",
+            "comName": "sunburst",
+            "title": "旭日图 sunburst",
+            "dataObj":  {
+                "title": "",
+                "color": [
+                    "FFAE57", "#FF7853", "#EA5151", "#CC3F57", "#9A2555"
+                ],
+                "legendStyle": {
+                    "textStyle": {
+                        "color": "#ffffff"
+                    }
+
+                },
+                "itemStyle": {
+
+                },
+                "data": [{
+                        "name": "A",
+                        "value": 10,
+                        "itemStyle": {
+                            "color": "#255"
+                        },
+                        "children": [{
+                                "value": 3,
+                                "name": "Ab",
+                                "itemStyle": {
+                                    "color": "#965"
+                                }
+                            },
+                            {
+                                "value": 5,
+                                "name": "Aa",
+                                "itemStyle": {
+                                    "color": "#755"
+                                }
+                            },
+                            {
+                                "value": 2,
+                                "name": "Ac",
+                                "itemStyle": {
+                                    "color": "#235"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "B",
+                        "itemStyle": {
+                            "color": "blue"
+                        },
+                        "children": [{
+                                "name": "Ba",
+                                "value": 4
+                            },
+                            {
+                                "name": "Bb",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "C",
+                        "value": 8,
+                        "itemStyle": {
+                            "color": "violet"
+                        },
+                        "children": [{
+                                "name": "Ca",
+                                "value": 4,
+                                "itemStyle": {
+                                    "color": "#568"
+                                }
+                            },
+                            {
+                                "name": "Cb",
+                                "value": 2,
+                                "itemStyle": {
+                                    "color": "#755"
+                                }
+                            },
+                            {
+                                "name": "Cf",
+                                "value": 2,
+                                "itemStyle": {
+                                    "color": "#154"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item22",
+            "comName": "parallel",
+            "title": "平行坐标系parallel",
+            "dataObj": {
+                "legend": {
+                    "bottom": 30,
+                    "itemGap": 20,
+                    "textStyle": {
+                        "color": "#fff",
+                        "fontSize": 14
+                    }
+                },
+                "visualMap": {
+                    "show": true,
+                    "min": 0,
+                    "max": 150,
+                    "dimension": 2,
+                    "inRange": {
+                        "color": [
+                            "#50a3ba",
+                            "#eac736",
+                            "#d94e5d"
+                        ]
+                    }
+                },
+                "tooltip": {
+                    "padding": 10,
+                    "borderColor": "#777",
+                    "borderWidth": 1
+                },
+                "parallelAxis": [{
+                        "dim": 0,
+                        "name": "Price"
+                    },
+                    {
+                        "dim": 1,
+                        "name": "Net Weight"
+                    },
+                    {
+                        "dim": 2,
+                        "name": "Amount"
+                    },
+                    {
+                        "dim": 3,
+                        "name": "Score",
+                        "type": "category",
+                        "data": [
+                            "Excellent",
+                            "Good",
+                            "OK",
+                            "Bad"
+                        ]
+                    }
+                ],
+                "series": {
+                    "type": "parallel",
+                    "lineStyle": {
+                        "width": 4
+                    }
+                },
+                "dataset": {
+                    "source": [
+                        [
+                            1,
+                            55,
+                            9,
+                            "Good"
+                        ],
+                        [
+                            2,
+                            25,
+                            11,
+                            "Excellent"
+                        ],
+                        [
+                            3,
+                            56,
+                            7,
+                            "Good"
+                        ],
+                        [
+                            4,
+                            33,
+                            7,
+                            "Excellent"
+                        ],
+                        [
+                            5,
+                            42,
+                            24,
+                            "Excellent"
+                        ],
+                        [
+                            6,
+                            82,
+                            58,
+                            "Good"
+                        ],
+                        [
+                            7,
+                            74,
+                            49,
+                            "Good"
+                        ],
+                        [
+                            8,
+                            78,
+                            55,
+                            "Good"
+                        ],
+                        [
+                            9,
+                            267,
+                            216,
+                            "Bad"
+                        ],
+                        [
+                            10,
+                            185,
+                            127,
+                            "OK"
+                        ],
+                        [
+                            11,
+                            39,
+                            19,
+                            "Excellent"
+                        ],
+                        [
+                            12,
+                            41,
+                            11,
+                            "Excellent"
+                        ],
+                        [
+                            13,
+                            64,
+                            38,
+                            "Good"
+                        ],
+                        [
+                            14,
+                            108,
+                            79,
+                            "轻度污染"
+                        ],
+                        [
+                            15,
+                            108,
+                            63,
+                            "轻度污染"
+                        ],
+                        [
+                            16,
+                            33,
+                            6,
+                            "Excellent"
+                        ],
+                        [
+                            17,
+                            94,
+                            66,
+                            "Good"
+                        ],
+                        [
+                            18,
+                            186,
+                            142,
+                            "OK"
+                        ],
+                        [
+                            19,
+                            57,
+                            31,
+                            "Good"
+                        ],
+                        [
+                            20,
+                            22,
+                            8,
+                            "Excellent"
+                        ],
+                        [
+                            21,
+                            39,
+                            15,
+                            "Excellent"
+                        ],
+                        [
+                            22,
+                            94,
+                            69,
+                            "Good"
+                        ],
+                        [
+                            23,
+                            99,
+                            73,
+                            "Good"
+                        ],
+                        [
+                            24,
+                            31,
+                            12,
+                            "Excellent"
+                        ],
+                        [
+                            25,
+                            42,
+                            27,
+                            "Excellent"
+                        ],
+                        [
+                            26,
+                            154,
+                            117,
+                            "OK"
+                        ],
+                        [
+                            27,
+                            234,
+                            185,
+                            "Bad"
+                        ],
+                        [
+                            28,
+                            160,
+                            120,
+                            "OK"
+                        ],
+                        [
+                            29,
+                            134,
+                            96,
+                            "轻度污染"
+                        ],
+                        [
+                            30,
+                            52,
+                            24,
+                            "Good"
+                        ],
+                        [
+                            31,
+                            46,
+                            5,
+                            "Excellent"
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "ref": "item23",
+            "comName": "boxPlot",
+            "title": "盒须图 boxPlot",
+            "dataObj": {
+                "title": [{
+                        "text": "Michelson-Morley Experiment",
+                        "left": "center",
+                        "top": 50
+                    },
+                    {
+                        "text": "upper: Q3 + 1.5 * IQR lower: Q1 - 1.5 * IQR",
+                        "borderColor": "#999",
+                        "borderWidth": 1,
+                        "textStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "lineHeight": 20
+                        },
+                        "left": "10%",
+                        "top": "90%"
+                    }
+                ],
+                "dataset": [{
+                        "source": [
+                            [
+                                850,
+                                740,
+                                900,
+                                1070,
+                                930,
+                                850,
+                                950,
+                                980,
+                                980,
+                                880,
+                                1000,
+                                980,
+                                930,
+                                650,
+                                760,
+                                810,
+                                1000,
+                                1000,
+                                960,
+                                960
+                            ],
+                            [
+                                960,
+                                940,
+                                960,
+                                940,
+                                880,
+                                800,
+                                850,
+                                880,
+                                900,
+                                840,
+                                830,
+                                790,
+                                810,
+                                880,
+                                880,
+                                830,
+                                800,
+                                790,
+                                760,
+                                800
+                            ],
+                            [
+                                880,
+                                880,
+                                880,
+                                860,
+                                720,
+                                720,
+                                620,
+                                860,
+                                970,
+                                950,
+                                880,
+                                910,
+                                850,
+                                870,
+                                840,
+                                840,
+                                850,
+                                840,
+                                840,
+                                840
+                            ],
+                            [
+                                890,
+                                810,
+                                810,
+                                820,
+                                800,
+                                770,
+                                760,
+                                740,
+                                750,
+                                760,
+                                910,
+                                920,
+                                890,
+                                860,
+                                880,
+                                720,
+                                840,
+                                850,
+                                850,
+                                780
+                            ],
+                            [
+                                890,
+                                840,
+                                780,
+                                810,
+                                760,
+                                810,
+                                790,
+                                810,
+                                820,
+                                850,
+                                870,
+                                870,
+                                810,
+                                740,
+                                810,
+                                940,
+                                950,
+                                800,
+                                810,
+                                870
+                            ]
+                        ]
+                    },
+                    {
+                        "transform": {
+                            "type": "boxplot",
+                            "config": {
+                                "itemNameFormatter": "expr {value}"
+                            }
+                        }
+                    },
+                    {
+                        "fromDatasetIndex": 1,
+                        "fromTransformResult": 1
+                    }
+                ],
+                "tooltip": {
+                    "trigger": "item",
+                    "axisPointer": {
+                        "type": "shadow"
+                    }
+                },
+                "grid": {
+                    "top": "20%",
+                    "left": "10%",
+                    "right": "10%",
+                    "bottom": "15%"
+                },
+                "xAxis": {
+                    "type": "category",
+                    "boundaryGap": true,
+                    "nameGap": 30,
+                    "splitArea": {
+                        "show": true
+                    },
+                    "splitLine": {
+                        "show": false
+                    }
+                },
+                "yAxis": {
+                    "type": "value",
+                    "name": "km/s minus 299,000",
+                    "splitArea": {
+                        "show": false
+                    }
+                },
+                "series": [{
+                        "name": "boxplot",
+                        "type": "boxplot",
+                        "datasetIndex": 1
+                    },
+                    {
+                        "name": "outlier",
+                        "type": "scatter",
+                        "datasetIndex": 2
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item24",
+            "comName": "calendarHeatMap",
+            "title": "日历热力图calendarHeatMap",
+            "dataObj": {
+                "data": [{ "date": "2017-05-01", "commits": 1, "month": 4, "day": 1, "week": "0" }, { "date": "2017-05-02", "commits": 1, "month": 4, "day": 2, "week": "0" }, { "date": "2017-05-03", "commits": 1, "month": 4, "day": 3, "week": "0" }, { "date": "2017-05-04", "commits": 1, "month": 4, "day": 4, "week": "0" }, { "date": "2017-05-05", "commits": 1, "month": 4, "day": 5, "week": "0" }, { "date": "2017-05-06", "commits": 1, "month": 4, "day": 6, "week": "0" }, { "date": "2017-05-07", "commits": 1, "month": 4, "day": 0, "week": "1" }, { "date": "2017-05-08", "commits": 1, "month": 4, "day": 1, "week": "1" }, { "date": "2017-05-09", "commits": 1, "month": 4, "day": 2, "week": "1" }, { "date": "2017-05-10", "commits": 1, "month": 4, "day": 3, "week": "1" }, { "date": "2017-05-11", "commits": 1, "month": 4, "day": 4, "week": "1" }, { "date": "2017-05-12", "commits": 1, "month": 4, "day": 5, "week": "1" }, { "date": "2017-05-13", "commits": 1, "month": 4, "day": 6, "week": "1" }, { "date": "2017-05-14", "commits": 1, "month": 4, "day": 0, "week": "2" }],
+                "height": 400,
+                "autoFit": false,
+                "xField": "week",
+                "yField": "day",
+                "colorField": "commits",
+                "color": "#BAE7FF-#1890FF-#0050B3",
+                "reflect": "y",
+                "shape": "boundary-polygon",
+                "meta": {
+                    "day": {
+                        "type": "cat",
+                        "values": ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
+                    },
+                    "week": {
+                        "type": "cat"
+                    },
+                    "commits": {
+                        "sync": true
+                    },
+                    "date": {
+                        "type": "cat"
+                    }
+                },
+                "yAxis": {
+                    "grid": null
+                },
+                "tooltip": {
+                    "title": "date",
+                    "showMarkers": false
+                },
+                "interactions": [{ "type": "element-active" }],
+                "xAxis": {}
+
+            }
+        },
+        {
+            "ref": "item25",
+            "comName": "heatMap",
+            "title": "热力图heatMap",
+            "dataObj": {
+                "data": [{ "g": 541, "l": 85, "tmp": 858 }, { "g": 937, "l": 465, "tmp": 299 }, { "g": 566, "l": 131, "tmp": 326 }, { "g": 738, "l": 130, "tmp": 262 }, { "g": 85, "l": 207, "tmp": 184 }, { "g": 321, "l": 273, "tmp": 312 }, { "g": 552, "l": 153, "tmp": 367 }, { "g": 698, "l": 454, "tmp": 194 }, { "g": 409, "l": 440, "tmp": 754 }, { "g": 905, "l": 84, "tmp": 891 }, { "g": 186, "l": 127, "tmp": 55 }, { "g": 636, "l": 117, "tmp": 97 }],
+                "container": "containerId",
+                "autoFit": true,
+                "height": 500,
+                "padding": [0, 30, 60, 30],
+                "theme": {
+                    "styleSheet": { "brandColor": "#FF4500", "paletteQualitative10": ["#FF4500", "#1AAF8B", "#406C85", "#F6BD16", "#B40F0F", "#2FB8FC", "#4435FF", "#FF5CA2", "#BBE800", "#FE8A26"], "paletteQualitative20": ["#FF4500", "#1AAF8B", "#406C85", "#F6BD16", "#B40F0F", "#2FB8FC", "#4435FF", "#FF5CA2", "#BBE800", "#FE8A26", "#946DFF", "#6C3E00", "#6193FF", "#FF988E", "#36BCCB", "#004988", "#FFCF9D", "#CCDC8A", "#8D00A1", "#1CC25E"] }
+                },
+                "annotationImage": {
+                    "start": ["min", "max"],
+                    "end": ["max", "min"],
+                    "src": "/static/images/NeUTMwKtPcPxIFNTWZOZ.png"
+                },
+                "color": "#F51D27-#FA541C-#FF8C12-#FFC838-#FAFFA8-#80FF73-#12CCCC-#1890FF-#6E32C2"
+            }
+        },
+        {
+            "ref": "item26",
+            "comName": "pieChart",
+            "title": "环形饼图pieChart",
+            "dataObj": {
+                "title": "某次军事演习",
+                "color": ["#1890ff", "#facc14", "#2fc25b", "#13c2c2", "#f04864", "#8543e0"],
+                "itemStyle": {
+                    "radius": ["50%", "75%"]
+                },
+                "data": [{
+                    "name": "空军1",
+                    "value": 1000
+                }, {
+                    "name": "陆军",
+                    "value": 1050
+                }, {
+                    "name": "海军",
+                    "value": 2000
+                }]
+            }
+        },
+        {
+            "ref": "item27",
+            "comName": "pieChart",
+            "title": "环形玫瑰饼图pieChart",
+            "dataObj": {
+                "title": "某次军事演习",
+                "color": ["#1890ff", "#facc14", "#2fc25b", "#13c2c2", "#f04864", "#8543e0"],
+                "itemStyle": {
+                    "radius": ["10%", "75%"],
+                    "roseType": "radius"
+                },
+                "data": [{
+                    "name": "空军1",
+                    "value": 1000
+                }, {
+                    "name": "陆军",
+                    "value": 1050
+                }, {
+                    "name": "海军",
+                    "value": 2000
+                }]
+
+            }
+        },
+        {
+            "ref": "item28",
+            "comName": "pieChart",
+            "title": "玫瑰饼图pieChart",
+            "dataObj": {
+                "title": "某次军事演习",
+                "color": ["#1890ff", "#facc14", "#2fc25b", "#13c2c2", "#f04864", "#8543e0"],
+                "itemStyle": {
+                    "radius": ["0%", "75%"],
+                    "roseType": "radius"
+                },
+                "data": [{
+                    "name": "空军1",
+                    "value": 1000
+                }, {
+                    "name": "陆军",
+                    "value": 1050
+                }, {
+                    "name": "海军",
+                    "value": 2000
+                }]
+
+            }
+        },
+        {
+            "ref": "item29",
+            "comName": "barChart",
+            "title": "横向柱形图barChart",
+            "dataObj": {
+                "name": "杀伤力",
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "xAxisStyle": {
+                    "splitLine": {
+                        "show": false
+                    }
+                },
+                "yAxisStyle": {
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "color": "#EBEEF5",
+                            "type": "dashed"
+                        }
+                    }
+                },
+                "data": [{
+                        "name": "AK47",
+                        "value": 3000
+                    },
+                    {
+                        "name": "Mp5冲锋枪",
+                        "value": 2500
+                    },
+                    {
+                        "name": "榴弹",
+                        "value": 1000
+                    },
+                    {
+                        "name": "AWP狙击枪",
+                        "value": 8000
+                    },
+                    {
+                        "name": "加农炮",
+                        "value": 28000
+                    },
+                    {
+                        "name": "马克沁机枪",
+                        "value": 12000
+                    }
+                ],
+                "mode": "vertical"
+
+            }
+        },
+        {
+            "ref": "item30",
+            "comName": "barChart",
+            "title": "横向堆叠柱形图barChart",
+            "dataObj": {
+                "name": ["销量", "库存"],
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "data": [{
+                        "name": "AK47",
+                        "value": [1300, 2000]
+                    },
+                    {
+                        "name": "Mp5冲锋枪",
+                        "value": [3400, 2100]
+                    },
+                    {
+                        "name": "榴弹",
+                        "value": [1000, 2000]
+                    },
+                    {
+                        "name": "AWP狙击枪",
+                        "value": [5000, 5000]
+                    },
+                    {
+                        "name": "加农炮",
+                        "value": [13000, 2000]
+                    },
+                    {
+                        "name": "马克沁机枪",
+                        "value": [3000, 2000]
+                    }
+                ],
+                "mode": "horizontal"
+
+            }
+        },
+        {
+            "ref": "item31",
+            "comName": "barChart",
+            "title": "纵向堆叠柱形图barChart",
+            "dataObj": {
+                "name": ["销量", "库存"],
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "data": [{
+                        "name": "AK47",
+                        "value": [1300, 2000]
+                    },
+                    {
+                        "name": "Mp5冲锋枪",
+                        "value": [3400, 2100]
+                    },
+                    {
+                        "name": "榴弹",
+                        "value": [1000, 2000]
+                    },
+                    {
+                        "name": "AWP狙击枪",
+                        "value": [5000, 5000]
+                    },
+                    {
+                        "name": "加农炮",
+                        "value": [13000, 2000]
+                    },
+                    {
+                        "name": "马克沁机枪",
+                        "value": [3000, 2000]
+                    }
+                ],
+                "mode": "vertical"
+
+            }
+        },
+        {
+            "ref": "item32",
+            "comName": "wordCloud",
+            "title": "三角形词云图wordCloud",
+            "dataObj": {
+                "changeSign": true,
+                "data": [{
+                        "value": 4,
+                        "name": "Arc Diagram"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Bar Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Canvas"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DAG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Facet"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Geo"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 4,
+                        "name": "MindMap"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pie"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pizza Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Punch Card"
+                    },
+                    {
+                        "value": 4,
+                        "name": "SVG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Sunburst"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Tree"
+                    },
+                    {
+                        "value": 4,
+                        "name": "UML"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 3,
+                        "name": "View"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Geom"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Shape"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Scale"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Animate"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Global"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Slider"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Connector"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Transform"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Util"
+                    },
+                    {
+                        "value": 3,
+                        "name": "DomUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "MatrixUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "PathUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "G"
+                    },
+                    {
+                        "value": 3,
+                        "name": "2D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "3D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Area"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Interval"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Schema"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Edge"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Polygon"
+                    }
+
+                ],
+                "imageMask": "/static/images/A_07tdTIOmvlYAAAAAAAAAAABkARQnAQ.png",
+                "wordField": "name",
+                "weightField": "value",
+                "colorField": "name",
+                "interactions": [{
+                    "type": "element-active"
+                }],
+                "state": {
+                    "active": {
+                        "style": {
+                            "lineWidth": 3
+                        }
+                    }
+                },
+                "wordStyle": {
+                    "fontFamily": "Verdana",
+                    "fontSize": [
+                        18,
+                        32
+                    ]
+                }
+            }
+        },
+        {
+            "ref": "item33",
+            "comName": "wordCloud",
+            "title": "长方形词云图wordCloud",
+            "dataObj": {
+                "changeSign": true,
+                "data": [{
+                        "value": 4,
+                        "name": "Arc Diagram"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Bar Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Canvas"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DAG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Facet"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Geo"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 4,
+                        "name": "MindMap"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pie"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pizza Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Punch Card"
+                    },
+                    {
+                        "value": 4,
+                        "name": "SVG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Sunburst"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Tree"
+                    },
+                    {
+                        "value": 4,
+                        "name": "UML"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 3,
+                        "name": "View"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Geom"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Shape"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Scale"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Animate"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Global"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Slider"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Connector"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Transform"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Util"
+                    },
+                    {
+                        "value": 3,
+                        "name": "DomUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "MatrixUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "PathUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "G"
+                    },
+                    {
+                        "value": 3,
+                        "name": "2D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "3D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Area"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Interval"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Schema"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Edge"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Polygon"
+                    }
+
+                ],
+                "imageMask": "/static/images/u=3918304302,2876966628&fm=26&gp=0.jpg",
+                "wordField": "name",
+                "weightField": "value",
+                "colorField": "name",
+                "interactions": [{
+                    "type": "element-active"
+                }],
+                "state": {
+                    "active": {
+                        "style": {
+                            "lineWidth": 3
+                        }
+                    }
+                },
+                "wordStyle": {
+                    "fontFamily": "Verdana",
+                    "fontSize": [
+                        18,
+                        32
+                    ]
+                }
+            }
+        },
+        {
+            "ref": "item34",
+            "comName": "wordCloud",
+            "title": "椭圆词云图wordCloud",
+            "dataObj": {
+                "changeSign": true,
+                "data": [{
+                        "value": 4,
+                        "name": "Arc Diagram"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Bar Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Canvas"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DAG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "DG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Facet"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Geo"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 4,
+                        "name": "MindMap"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pie"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Pizza Chart"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Punch Card"
+                    },
+                    {
+                        "value": 4,
+                        "name": "SVG"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Sunburst"
+                    },
+                    {
+                        "value": 4,
+                        "name": "Tree"
+                    },
+                    {
+                        "value": 4,
+                        "name": "UML"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Chart"
+                    },
+                    {
+                        "value": 3,
+                        "name": "View"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Geom"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Shape"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Scale"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Animate"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Global"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Slider"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Connector"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Transform"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Util"
+                    },
+                    {
+                        "value": 3,
+                        "name": "DomUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "MatrixUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "PathUtil"
+                    },
+                    {
+                        "value": 3,
+                        "name": "G"
+                    },
+                    {
+                        "value": 3,
+                        "name": "2D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "3D"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Line"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Area"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Interval"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Schema"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Edge"
+                    },
+                    {
+                        "value": 3,
+                        "name": "Polygon"
+                    }
+
+                ],
+                "imageMask": "/static/images/u=2696112892,3612948094&fm=26&gp=0.jpg",
+                "wordField": "name",
+                "weightField": "value",
+                "colorField": "name",
+                "interactions": [{
+                    "type": "element-active"
+                }],
+                "state": {
+                    "active": {
+                        "style": {
+                            "lineWidth": 3
+                        }
+                    }
+                },
+                "wordStyle": {
+                    "fontFamily": "Verdana",
+                    "fontSize": [
+                        18,
+                        32
+                    ]
+                }
+            }
+        },
+        {
+            "ref": "item35",
+            "comName": "flowChart",
+            "title": "纵向流程图flowChart",
+            "dataObj": {
+                "name": "流程图",
+                "layout": { "rankdir": "TB" },
+                "nodes": [{
+                        "id": "1",
+                        "dataType": "alps",
+                        "name": "alps_file1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "dataType": "alps",
+                        "name": "alps_file2",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "dataType": "alps",
+                        "name": "alps_file3",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "dataType": "sql",
+                        "name": "sql_file1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "dataType": "sql",
+                        "name": "sql_file2",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "dataType": "feature_etl",
+                        "name": "feature_etl_1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "dataType": "feature_etl",
+                        "name": "feature_etl_1",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "dataType": "feature_extractor",
+                        "name": "feature_extractor",
+                        "conf": [{
+                                "label": "conf",
+                                "value": "pai_graph.conf"
+                            },
+                            {
+                                "label": "dot",
+                                "value": "pai_graph.dot"
+                            },
+                            {
+                                "label": "init",
+                                "value": "init.rc"
+                            }
+                        ]
+                    }
+                ],
+                "edges": [{
+                        "source": "1",
+                        "target": "2"
+                    },
+                    {
+                        "source": "1",
+                        "target": "3"
+                    },
+                    {
+                        "source": "2",
+                        "target": "4"
+                    },
+                    {
+                        "source": "3",
+                        "target": "4"
+                    },
+                    {
+                        "source": "4",
+                        "target": "5"
+                    },
+                    {
+                        "source": "5",
+                        "target": "6"
+                    },
+                    {
+                        "source": "6",
+                        "target": "7"
+                    },
+                    {
+                        "source": "6",
+                        "target": "8"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item36",
+            "comName": "treeChart",
+            "title": "纵向树形图treeChart",
+            "dataObj": {
+                "title": "树形图",
+                "titleStyle": {
+                    "color": "#666"
+                },
+                "itemStyle": {
+                    "itemStyle": {
+                        "borderColor": "#cecece"
+                    },
+                    "orient": "vertical"
+                },
+                "data": [{
+                    "name": "张三",
+                    "children": [{
+                            "name": "李四",
+                            "children": [{
+                                    "name": "converters",
+                                    "children": [{
+                                        "name": "Converters",
+                                        "value": 721
+                                    }]
+                                },
+                                {
+                                    "name": "DataUtil",
+                                    "value": 3322
+                                }
+                            ]
+                        },
+                        {
+                            "name": "张三",
+                            "children": [{
+                                    "name": "DirtySprite",
+                                    "value": 8833
+                                },
+                                {
+                                    "name": "LineSprite",
+                                    "value": 1732
+                                },
+                                {
+                                    "name": "RectSprite",
+                                    "value": 3623
+                                }
+                            ]
+                        },
+                        {
+                            "name": "{{受众}}",
+                            "children": [{
+                                "name": "FlareVis",
+                                "value": 4116
+                            }]
+                        },
+                        {
+                            "name": "query",
+                            "children": [{
+                                "name": "Xor",
+                                "value": 1101
+                            }]
+                        },
+                        {
+                            "name": "scale",
+                            "children": [{
+                                    "name": "IScaleMap",
+                                    "value": 2105
+                                },
+                                {
+                                    "name": "LinearScale",
+                                    "value": 1316
+                                },
+                                {
+                                    "name": "TimeScale",
+                                    "value": 5833
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "ref": "item37",
+            "comName": "lineChart",
+            "title": "面积图lineChart",
+            "dataObj": {
+                "title": "某周手榴弹战损趋势",
+                "name": "手榴弹的战损量",
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "itemStyle": {
+                    "smooth": true,
+                    "lineStyle": {
+                        "width": 0.5
+                    },
+                    "areaStyle": {
+                        "color": "rgba(0, 38, 255, .5)"
+                    }
+                },
+                "data": [{
+                        "name": "周一",
+                        "value": 3000
+                    },
+                    {
+                        "name": "周二",
+                        "value": 2500
+                    },
+                    {
+                        "name": "周三",
+                        "value": 1000
+                    },
+                    {
+                        "name": "周四",
+                        "value": 8000
+                    },
+                    {
+                        "name": "周五",
+                        "value": 28000
+                    },
+                    {
+                        "name": "周六",
+                        "value": 12000
+                    },
+                    {
+                        "name": "周日",
+                        "value": 12000
+                    }
+                ],
+                "mode": "vertical"
+
+            }
+        },
+        {
+            "ref": "item38",
+            "comName": "lineChart",
+            "title": "面积堆叠图lineChart",
+            "dataObj": {
+                "title": "",
+                "name": ["手榴弹战损", "MG5冲锋枪战损", "坦克战损"],
+                "color": ["#1890ff", "#facc14", "#8543e0", "#2fc25b", "#223273", "#13c2c2"],
+                "itemStyle": {
+                    "smooth": true,
+                    "lineStyle": {
+                        "width": 0.5
+                    },
+                    "areaStyle": {
+                        "opacity": 0.2
+                    }
+                },
+                "data": [{
+                        "name": "周一",
+                        "value": [3000, 2000, 500]
+                    },
+                    {
+                        "name": "周二",
+                        "value": [2000, 1500, 400]
+                    },
+                    {
+                        "name": "周三",
+                        "value": [3400, 2220, 1000]
+                    },
+                    {
+                        "name": "周四",
+                        "value": [3300, 2130, 500]
+                    },
+                    {
+                        "name": "周五",
+                        "value": [4500, 2500, 1000]
+                    },
+                    {
+                        "name": "周六",
+                        "value": [3500, 1100, 500]
+                    },
+                    {
+                        "name": "周日",
+                        "value": [2000, 1260, 350]
+                    }
+                ],
+                "mode": "vertical"
+
+            }
+        },
+        {
+            "ref": "item39",
+            "comName": "arcChart",
+            "title": "环形弧形图arcChart",
+            "dataObj": {
+                "name": "弧形图",
+                "type": "basic",
+                "nodes": [{
+                        "id": "0",
+                        "name": "analytics.cluster",
+                        "cluster": "analytics",
+                        "value": 21
+                    },
+                    {
+                        "id": "1",
+                        "name": "analytics.graph",
+                        "cluster": "analytics",
+                        "value": 34
+                    },
+                    {
+                        "id": "2",
+                        "name": "analytics.optimization",
+                        "cluster": "analytics",
+                        "value": 8
+                    },
+                    {
+                        "id": "3",
+                        "name": "animate",
+                        "cluster": "animate",
+                        "value": 40
+                    },
+                    {
+                        "id": "4",
+                        "name": "animate.interpolate",
+                        "cluster": "animate",
+                        "value": 18
+                    },
+                    {
+                        "id": "5",
+                        "name": "data.converters",
+                        "cluster": "data",
+                        "value": 25
+                    },
+                    {
+                        "id": "6",
+                        "name": "data",
+                        "cluster": "data",
+                        "value": 10
+                    },
+                    {
+                        "id": "7",
+                        "name": "display",
+                        "cluster": "display",
+                        "value": 4
+                    },
+                    {
+                        "id": "8",
+                        "name": "flex",
+                        "cluster": "flex",
+                        "value": 6
+                    },
+                    {
+                        "id": "9",
+                        "name": "physics",
+                        "cluster": "physics",
+                        "value": 22
+                    },
+                    {
+                        "id": "10",
+                        "name": "query",
+                        "cluster": "query",
+                        "value": 67
+                    },
+                    {
+                        "id": "11",
+                        "name": "query.methods",
+                        "cluster": "query",
+                        "value": 71
+                    },
+                    {
+                        "id": "12",
+                        "name": "scale",
+                        "cluster": "scale",
+                        "value": 33
+                    },
+                    {
+                        "id": "13",
+                        "name": "util",
+                        "cluster": "util",
+                        "value": 23
+                    },
+                    {
+                        "id": "14",
+                        "name": "util.heap",
+                        "cluster": "util",
+                        "value": 2
+                    },
+                    {
+                        "id": "15",
+                        "cluster": "util",
+                        "name": "util.math",
+                        "value": 2
+                    },
+                    {
+                        "id": "16",
+                        "name": "util.palette",
+                        "cluster": "util",
+                        "value": 5
+                    },
+                    {
+                        "id": "17",
+                        "name": "vis.axis",
+                        "cluster": "vis",
+                        "value": 24
+                    },
+                    {
+                        "id": "18",
+                        "name": "vis.controls",
+                        "cluster": "vis",
+                        "value": 28
+                    },
+                    {
+                        "id": "19",
+                        "name": "vis.data",
+                        "cluster": "vis",
+                        "value": 70
+                    },
+                    {
+                        "id": "20",
+                        "name": "vis.data.render",
+                        "cluster": "vis",
+                        "value": 11
+                    },
+                    {
+                        "id": "21",
+                        "name": "vis.events",
+                        "cluster": "vis",
+                        "value": 8
+                    },
+                    {
+                        "id": "22",
+                        "name": "vis.legend",
+                        "cluster": "vis",
+                        "value": 27
+                    },
+                    {
+                        "id": "23",
+                        "name": "vis.operator.distortion",
+                        "cluster": "vis",
+                        "value": 9
+                    },
+                    {
+                        "id": "24",
+                        "name": "vis.operator.encoder",
+                        "cluster": "vis",
+                        "value": 30
+                    },
+                    {
+                        "id": "25",
+                        "name": "vis.operator.filter",
+                        "cluster": "vis",
+                        "value": 17
+                    },
+                    {
+                        "id": "26",
+                        "name": "vis.operator",
+                        "cluster": "vis",
+                        "value": 27
+                    },
+                    {
+                        "id": "27",
+                        "name": "vis.operator.label",
+                        "cluster": "vis",
+                        "value": 18
+                    },
+                    {
+                        "id": "28",
+                        "name": "vis.operator.layout",
+                        "cluster": "vis",
+                        "value": 91
+                    },
+                    {
+                        "id": "29",
+                        "name": "vis",
+                        "cluster": "vis",
+                        "value": 13
+                    }
+                ],
+                "edges": [{
+                        "source": "10",
+                        "target": "10",
+                        "sourceWeight": 61,
+                        "targetWeight": 61
+                    },
+                    {
+                        "source": "11",
+                        "target": "11",
+                        "sourceWeight": 39,
+                        "targetWeight": 39
+                    },
+                    {
+                        "source": "3",
+                        "target": "3",
+                        "sourceWeight": 30,
+                        "targetWeight": 30
+                    },
+                    {
+                        "source": "19",
+                        "target": "19",
+                        "sourceWeight": 26,
+                        "targetWeight": 26
+                    },
+                    {
+                        "source": "13",
+                        "target": "13",
+                        "sourceWeight": 23,
+                        "targetWeight": 23
+                    },
+                    {
+                        "source": "9",
+                        "target": "9",
+                        "sourceWeight": 22,
+                        "targetWeight": 22
+                    },
+                    {
+                        "source": "12",
+                        "target": "12",
+                        "sourceWeight": 19,
+                        "targetWeight": 19
+                    },
+                    {
+                        "source": "28",
+                        "target": "19",
+                        "sourceWeight": 34,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "4",
+                        "target": "4",
+                        "sourceWeight": 16,
+                        "targetWeight": 16
+                    },
+                    {
+                        "source": "11",
+                        "target": "10",
+                        "sourceWeight": 32,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "28",
+                        "sourceWeight": 14,
+                        "targetWeight": 14
+                    },
+                    {
+                        "source": "18",
+                        "target": "18",
+                        "sourceWeight": 12,
+                        "targetWeight": 12
+                    },
+                    {
+                        "source": "26",
+                        "target": "26",
+                        "sourceWeight": 11,
+                        "targetWeight": 11
+                    },
+                    {
+                        "source": "28",
+                        "target": "13",
+                        "sourceWeight": 20,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "5",
+                        "target": "6",
+                        "sourceWeight": 17,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "19",
+                        "target": "13",
+                        "sourceWeight": 17,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "17",
+                        "sourceWeight": 7,
+                        "targetWeight": 7
+                    },
+                    {
+                        "source": "6",
+                        "target": "6",
+                        "sourceWeight": 7,
+                        "targetWeight": 7
+                    },
+                    {
+                        "source": "12",
+                        "target": "13",
+                        "sourceWeight": 14,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "19",
+                        "sourceWeight": 14,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "5",
+                        "target": "5",
+                        "sourceWeight": 7,
+                        "targetWeight": 7
+                    },
+                    {
+                        "source": "21",
+                        "target": "19",
+                        "sourceWeight": 6,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "25",
+                        "target": "19",
+                        "sourceWeight": 10,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "0",
+                        "sourceWeight": 5,
+                        "targetWeight": 5
+                    },
+                    {
+                        "source": "3",
+                        "target": "13",
+                        "sourceWeight": 9,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "20",
+                        "target": "19",
+                        "sourceWeight": 5,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "19",
+                        "target": "12",
+                        "sourceWeight": 9,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "19",
+                        "sourceWeight": 8,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "19",
+                        "sourceWeight": 8,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "22",
+                        "target": "22",
+                        "sourceWeight": 4,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "24",
+                        "target": "24",
+                        "sourceWeight": 4,
+                        "targetWeight": 4
+                    },
+                    {
+                        "source": "26",
+                        "target": "3",
+                        "sourceWeight": 7,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "16",
+                        "sourceWeight": 7,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "16",
+                        "target": "16",
+                        "sourceWeight": 3,
+                        "targetWeight": 3
+                    },
+                    {
+                        "source": "10",
+                        "target": "13",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "7",
+                        "target": "7",
+                        "sourceWeight": 3,
+                        "targetWeight": 3
+                    },
+                    {
+                        "source": "22",
+                        "target": "13",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "20",
+                        "target": "20",
+                        "sourceWeight": 3,
+                        "targetWeight": 3
+                    },
+                    {
+                        "source": "1",
+                        "target": "26",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "19",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "12",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "22",
+                        "target": "7",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "3",
+                        "sourceWeight": 6,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "7",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "26",
+                        "target": "13",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "13",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "13",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "1",
+                        "target": "3",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "26",
+                        "target": "29",
+                        "sourceWeight": 3,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "22",
+                        "target": "16",
+                        "sourceWeight": 5,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "18",
+                        "target": "21",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "22",
+                        "target": "12",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "23",
+                        "target": "23",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "17",
+                        "target": "29",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "28",
+                        "target": "17",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "15",
+                        "target": "15",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "17",
+                        "target": "12",
+                        "sourceWeight": 4,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "27",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "14",
+                        "target": "14",
+                        "sourceWeight": 2,
+                        "targetWeight": 2
+                    },
+                    {
+                        "source": "18",
+                        "target": "29",
+                        "sourceWeight": 3,
+                        "targetWeight": 1
+                    },
+                    {
+                        "source": "25",
+                        "target": "26",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "28",
+                        "target": "9",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "27",
+                        "target": "7",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "12",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "17",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "18",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "20",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "0",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "24",
+                        "target": "13",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "19",
+                        "target": "6",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    },
+                    {
+                        "source": "29",
+                        "target": "3",
+                        "sourceWeight": 3,
+                        "targetWeight": 0
+                    }
+
+                ]
+            }
+        },
+        {
+            "ref": "item40",
+            "comName": "funnelChart",
+            "title": "正三角漏斗图funnelChart",
+            "dataObj": {
+                "name": "漏斗图",
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "itemStyle": {
+                    "sort": "ascending"
+                },
+                "data": [{
+                        "value": 60,
+                        "name": "访问"
+                    },
+                    {
+                        "value": 40,
+                        "name": "咨询"
+                    },
+                    {
+                        "value": 20,
+                        "name": "订单"
+                    },
+                    {
+                        "value": 80,
+                        "name": "点击"
+                    },
+                    {
+                        "value": 100,
+                        "name": "展现"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "item41",
+            "comName": "radarChart",
+            "title": "圆形雷达图radarChart",
+            "dataObj": {
+                "color": ["#1890ff", "#2fc25b", "#facc14", "#223273", "#8543e0", "#13c2c2"],
+                "title": "武器装备性能对比",
+                "legendStyle": {
+                    "left": 10,
+                    "top": "middle",
+                    "orient": "vertical",
+                    "icon": "diamond"
+                },
+                "radarStyle": {
+                    "indicator": [
+                        { "name": "装甲厚度", "max": 100 },
+                        { "name": "舰载机携带数", "max": 100 },
+                        { "name": "续航", "max": 100 },
+                        { "name": "吨位", "max": 100 },
+                        { "name": "航速", "max": 100 }
+                    ],
+                    "shape": "circle"
+                },
+                "data": [{
+                        "name": "米尼兹级",
+                        "style": {
+                            "areaStyle": {
+                                "color": "#1890ff",
+                                "opacity": 0.5
+                            },
+                            "lineStyle": {
+                                "color": "#1890ff"
+                            }
+                        },
+                        "value": [55, 80, 68, 87, 90]
+                    },
+                    {
+                        "name": "001型",
+                        "style": {
+                            "areaStyle": {
+                                "color": "#2fc25b",
+                                "opacity": 0.5
+                            },
+                            "lineStyle": {
+                                "color": "#2fc25b"
+                            }
+                        },
+                        "value": [25, 84, 96, 80, 70]
+                    },
+                    {
+                        "name": "库兹列左夫",
+                        "value": [75, 34, 46, 90, 80],
+                        "style": {
+                            "areaStyle": {
+                                "color": "#facc14",
+                                "opacity": 0.5
+                            },
+                            "lineStyle": {
+                                "color": "#facc14"
+                            }
+                        }
+                    }
+                ]
+            }
+        }, {
+            "ref": "item42",
+            "comName": "olGisMap",
+            "title": "Gis轨迹地图olGisMap",
+            "dataObj": {
+                "geojson": [{
+                    "type": "animation",
+                    "features": [{
+                            "lineTitle": "1",
+                            "lineColor": "pink",
+                            "lineData": [{
+                                    "coordinates": [
+                                        126.53773,
+                                        45.797596
+                                    ],
+                                    "description": "哈尔滨"
+                                },
+                                {
+                                    "coordinates": [
+                                        125.360303,
+                                        43.833571
+                                    ],
+                                    "description": "长春"
+                                },
+                                {
+                                    "coordinates": [
+                                        111.709509,
+                                        40.859246
+                                    ],
+                                    "description": "呼和浩特"
+                                },
+                                {
+                                    "coordinates": [
+                                        106.11673,
+                                        38.49975
+                                    ],
+                                    "description": "银川"
+                                }
+                            ]
+                        },
+                        {
+                            "lineTitle": "2",
+                            "lineColor": "orange",
+                            "lineData": [{
+                                    "coordinates": [
+                                        117.265492,
+                                        38.989629
+                                    ],
+                                    "description": "天津"
+                                },
+                                {
+                                    "coordinates": [
+                                        114.542692,
+                                        37.977368
+                                    ],
+                                    "description": "石家庄"
+                                },
+                                {
+                                    "coordinates": [
+                                        112.51899,
+                                        37.889936
+                                    ],
+                                    "description": "太原"
+                                },
+                                {
+                                    "coordinates": [
+                                        108.986709,
+                                        34.338192
+                                    ],
+                                    "description": "西安"
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "center": [
+                    103,
+                    36
+                ],
+                "zoom": 4,
+                "minZoom": 2,
+                "maxZoom": 19
+            }
+        }
+    ]
+}

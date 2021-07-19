@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <style>
+        #main {
+            position: relative;
+            display: inline-block;
+            float: left;
+            width: 500px;
+            height: 500px;
+            border-radius: 5px;
+            background-color: blueviolet;
+        }
+        
+        #switchItem {
+            position: relative;
+            display: none;
+            float: left;
+            margin-left: 10px;
+            width: 500px;
+            height: 500px;
+            border-radius: 5px;
+            background-color: rebeccapurple;
+        }
+        
+        .test {
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 3px;
+            border: solid 1px #fff;
+            padding: 5px 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <span class="test">点击显示</span>
+    </div>
+    <div id="switchItem"></div>
+</body>
+<script>
+    let elem = document.querySelector(".test");
+    elem.onclick = function(event) {
+        document.querySelector("#switchItem").style.display = "inline-block";
+        event.stopPropagation();
+    }
+    elem = document.querySelector("#main");
+    elem.onclick = function() {
+        document.querySelector("#switchItem").style.display = "none";
+    }
+</script>
+
+</html>

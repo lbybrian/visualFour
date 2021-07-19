@@ -1,0 +1,77 @@
+[{
+    "id": "121",
+    "label": "盗窃事件",
+    "children": [{
+        "id": "10",
+        "label": "盗窃",
+        "children": []
+    }]
+}, {
+    "id": "122",
+    "label": "强制措施事实",
+    "children": [{
+        "id": "11",
+        "label": "逮捕",
+        "children": []
+    }, {
+        "id": "12",
+        "label": "拘留",
+        "children": []
+    }, {
+        "id": "13",
+        "label": "劳动教养",
+        "children": []
+    }, {
+        "id": "14",
+        "label": "取保候审",
+        "children": []
+    }]
+}, {
+    "id": "123",
+    "label": "认定事实",
+    "children": [{
+        "id": "16",
+        "label": "欺骗",
+        "children": []
+    }, {
+        "id": "17",
+        "label": "盗窃",
+        "children": []
+    }]
+}, {
+    "id": "124",
+    "label": "刑罚",
+    "children": [{
+        "id": "18",
+        "label": "主刑兼附加刑",
+        "children": []
+    }, {
+        "id": "19",
+        "label": "主刑",
+        "children": []
+    }, {
+        "id": "20",
+        "label": "附加刑",
+        "children": []
+    }]
+}, {
+    "id": "125",
+    "label": "刑事处罚事实",
+    "children": [{
+        "id": "21",
+        "label": "罪状",
+        "children": []
+    }]
+}, {
+    "id": "10025",
+    "label": "销赃事件",
+    "children": [{
+        "id": "25",
+        "label": "买受人已知财物来源",
+        "children": []
+    }, {
+        "id": "26",
+        "label": "买受人未知财物来源",
+        "children": []
+    }]
+}]
