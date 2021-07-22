@@ -1,0 +1,56 @@
+.contentArea>div {
+    /* 下两行会影响页面弹框位置 */
+    /* position: relative; */
+    /* float: left; */
+    padding: 20px 22px!important;
+}
+
+.chartItem {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+
+.chartItem::after {
+    content: attr(state);
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+.chartItem .titleArea {
+    display: none;
+}
+.chartItem .componentArea {
+    padding-top: 0px !important;
+}
+
+ /* 地图 item1*/
+ /* 图8重要人物图谱 item8_1 */
+ /* 图十国家力量 item10 */
+.item1, .item8_1, .item10 {
+    width: 100%;
+    height: calc( 100% - 200px );
+}
+
+/* 热点top列表 .item2_1 item2_2 item2_3 */
+/* 图三东南亚top列表 item_3*/
+/* 图七热点事件、各方表态top列表 item7_1 item7_2*/
+/* 图九军事力量top列表 item9*/
+/* 图11缅甸一带一路态势 item11*/
+/* 图12东南亚一带一路态势 item12*/
+/* 图13全球一带一路态势 item13*/
+.item2_1, .item2_2, .item2_3, .item_3, .item7_1, .item7_2, .item8_2, .item9, .item11, .item12, .item13{
+    width: 420px;
+    height: calc( 100% - 220px );
+}
+
+/* 定位在右侧 */
+.item2_1, .item2_2, .item2_3, .item_3, .item7_2, .item8_2, .item9, .item11, .item12, .item13{
+    right: 0px;
+}
+
+/* 定位在左侧 */
+.item7_1 {
+    left: 0px;
+}

@@ -1,0 +1,40 @@
+.contentArea>div {
+    /* 下两行会影响页面弹框位置 */
+    /* position: relative; */
+    /* float: left; */
+    padding: 20px 22px!important;
+}
+
+.chartItem {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+
+.chartItem::after {
+    content: attr(state);
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+.chartItem .titleArea {
+    display: none;
+}
+.chartItem .componentArea {
+    padding-top: 0px !important;
+}
+
+.item1 {
+    width: 100%;
+    height: calc( 100% - 200px );
+}
+
+.item7_1 {
+    width: 300px;
+    right: 0px;
+}
+
+.item7_2 {
+    right: 500px;
+}

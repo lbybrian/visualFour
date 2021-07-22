@@ -1,0 +1,31 @@
+.contentArea>div {
+    /* 下两行会影响页面弹框位置 */
+    /* position: relative; */
+    /* float: left; */
+    padding: 20px 22px!important;
+}
+
+.chartItem {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+
+.chartItem::after {
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+.item1 {
+    width: 275px;
+    height: 80%;
+}
+
+.item2 {
+    right: 0px;
+}
+
+.item3 {
+    right: 500px;
+}
